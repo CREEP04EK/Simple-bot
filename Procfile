@@ -1,1 +1,1 @@
-worker: python raspis.py $port
+bot: python3 raspis.py
