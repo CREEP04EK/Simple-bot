@@ -17,7 +17,7 @@ c = datetime.date(y, m, d).isocalendar().week
 conn = mysql.connector.connect(database='service_db', username='root', password='qazwsxedc')
 cursor = conn.cursor()
 
-token = "5740428804:AAGZM-PoCfMgProGVyWbK_mR4kMeGIWqiP0"
+token = 
 bot = telebot.TeleBot(token)
 command_list = ['/help', '/Расписание', '/KAKAYANEDELA', '/mtuci', '/start', 'На ПН', 'На ВТ', ' На СР', 'На ЧТ',
                 'На ПТ', 'На СБ', 'На тек нед', 'На след нед']
